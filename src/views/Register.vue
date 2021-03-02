@@ -1,5 +1,5 @@
 <template>
-  <div id="register">
+  <div class="register">
       <div class='form'>
       <div class='tab-content'>
         <div id='signup'>
@@ -51,3 +51,9 @@
     <!-- /form -->
   </div>
 </template>
+
+<style lang="scss" scoped>
+.register{
+  height: 80vh;
+}
+</style>

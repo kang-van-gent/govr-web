@@ -3,10 +3,10 @@
     <!-- Category News Start-->
     <div class="cat-news">
       <div class="container">
-        <b-row class="row">
-          <b-col
+        <div class="row">
+          <div
             v-for="content in contents"
-            :key="content"
+            :key="content.id"
             class="col-lg-3 col-md-6"
           >
             <div class="cn-img">
@@ -15,8 +15,8 @@
                 <a href="">{{ content.title }}</a>
               </div>
             </div>
-          </b-col>
-        </b-row>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Category News End-->

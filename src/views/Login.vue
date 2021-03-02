@@ -1,5 +1,5 @@
 <template>
-  <div id='login'>
+  <div class='login'>
     <div class='form'>
       <div class='tab-content'>
         <div id='signup'>
@@ -48,9 +48,8 @@
 </template>
 
 <style lang='scss' scoped>
-.box {
-  width: 100%;
-  height: 100vh;
-  background-color: aqua;
+.login{
+  height: 80vh;
 }
+
 </style>
