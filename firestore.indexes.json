@@ -1,0 +1,53 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Contents",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "category",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "disabled",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "private",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Contents",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "disabled",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "private",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
